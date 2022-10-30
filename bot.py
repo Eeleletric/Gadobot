@@ -18,4 +18,4 @@ async def on_ready():
     await bot.add_cog(Salve(bot))
     await bot.add_cog(Gado(bot)) 
 
-bot.run(os.enviro['TOKEN'])
+bot.run(os.environ['TOKEN'])
