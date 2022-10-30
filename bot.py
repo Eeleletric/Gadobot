@@ -27,4 +27,4 @@ async def on_ready():
     bot.add_cog(gay_cog(bot))
     bot.add_cog(moeda_cog(bot))
     bot.add_cog(merchan(bot))
-bot.run(config("TOKEN"))
+bot.run(os.environ("TOKEN"))
