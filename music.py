@@ -68,7 +68,7 @@ class music_cog(commands.Cog):
     @commands.command(name="play", aliases=["p","playing"])
     async def play(self, ctx, *args):
         query = " ".join(args)
-        voice_channel = ctx.author.voice
+        voice_channel = ctx.author.voice.channel
         if  voice_channel== None:
             #you need to be connected so that the bot knows where to go
             await ctx.send("Conecta a um Canal MUTIRO VURRO FILHO")
