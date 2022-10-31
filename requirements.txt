@@ -1,5 +1,6 @@
 discord.py==1.7.3
 discord.py[voice]==1.7.3
+-upgrade discord-components
 python-decouple
 youtube_dl
 ffmpeg
