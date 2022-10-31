@@ -1,6 +1,6 @@
 discord.py==1.7.3
 discord.py[voice]==1.7.3
--U git+https://github.com/kiki7000/discord.py-components
+git+https://github.com/kiki7000/discord.py-components
 python-decouple
 youtube_dl
 ffmpeg
