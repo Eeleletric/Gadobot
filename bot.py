@@ -10,7 +10,6 @@ from mentioned import Mentioned
 from salve import Salve
 from moeda import moeda_cog
 from merchan import merchan
-import os
 
 
 bot = ComponentsBot(command_prefix='!')
@@ -27,4 +26,5 @@ async def on_ready():
     bot.add_cog(gay_cog(bot))
     bot.add_cog(moeda_cog(bot))
     bot.add_cog(merchan(bot))
-bot.run(os.environ(TOKEN))
+key = config("TOKEN")
+bot.run(key)
